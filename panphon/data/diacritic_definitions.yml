@@ -168,8 +168,7 @@ diacritics:
       - ɥ
     content:
       round: "+"
-      back:  "+"
-      hi:  "+"
+      lab:  "+"
 
   - marker: ʲ
     name: Palatalized
@@ -180,8 +179,11 @@ diacritics:
       - j
       - ɥ
     content:
+      dorsal:   "+"
       hi:   "+"
+      lo:   "-"
       back: "-"
+      front: "+"
 
   - marker: ᶣ
     name: Labiopalatalized
@@ -210,8 +212,11 @@ diacritics:
       - ɰ
       - ʟ
     content:
+      dorsal: "+"
       hi:   "+"
+      lo:   "-"
       back: "+"
+      front: "-"
 
   - marker: ˤ
     name: Pharyngealized
@@ -223,8 +228,11 @@ diacritics:
       - ʕ
       - ħ
     content:
+      dorsal: "+"
+      hi:   "-"
       lo:   "+"
       back: "+"
+      front: "-"
 
   - marker: ̴
     name: "Velarized or Pharyngealized"
